@@ -1,24 +1,22 @@
-# create-svelte
+# 🔥 A demo of SvelteKit using Firebase and TypeScript
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+## Features
+* 🛠 Access firebase on the client
+* 🔒 Authorize the user on endpoints and on routes during SSR
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
+## Installation
+* Install the dependencies with `npm install` (or `pnpm install` or `yarn`)
+* Set your firebase web SDK credentials in `src/lib/firebase.credentials.ts`
+* Authorize the firebase admin SDK by setting the environment variables :
+    * PRIVATE_KEY
+    * CLIENT_EMAIL
+    * PROJECT_ID
+    
+    These variables can be found in your private key file json for your service account (see https://firebase.google.com/docs/admin/setup#initialize-sdk)
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Start a development server:
 
 ```bash
 npm run dev
