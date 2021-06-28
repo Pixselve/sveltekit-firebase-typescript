@@ -12,6 +12,12 @@
   },
   "devDependencies": {
     "@sveltejs/kit": "next",
+    "@types/cookie": "^0.4.0",
+    "@types/js-cookie": "^2.2.6",
+    "cookie": "^0.4.1",
+    "firebase": "^9.0.0-beta.2",
+    "firebase-admin": "^9.10.0",
+    "js-cookie": "^2.2.1",
     "prettier": "~2.2.1",
     "prettier-plugin-svelte": "^2.2.0",
     "svelte": "^3.34.0",
